@@ -39,11 +39,6 @@ const Main = () => {
 
                         <div className="blocks__info">
 
-                            <div className="block_info ">
-                                <h3 className='text__block_info'>Инструкция</h3>
-                                <img className="iconMain" src={guide} alt="" />
-
-                            </div>
                             <Link to="/parcels">
                             <div className="block_info ">
                                 <h3 className='text__block_info'>Отследить трек номер</h3>
@@ -51,18 +46,6 @@ const Main = () => {
                             </div>
                             </Link>
                             
-
-                            <div className="block_info ">
-                                <h3 className='text__block_info'>Адрес Китайского склада</h3>
-                                <img className="iconMain" src={geo} alt="" />
-
-                            </div>
-
-                            <div className="block_info ">
-                                <h3 className='text__block_info'>Стать партнером</h3>
-                                <img className="iconMain" src={handshake} alt="" />
-
-                            </div>
 
 
                             
